@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+     <LinearLayout
+         android:orientation="vertical"
+
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="150dp"
+             android:background="@drawable/bg_gradien_primary_blue"
+             android:orientation="vertical">
+
+             <TextView
+                 android:id="@+id/titlepage"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="47dp"
+                 android:layout_marginBottom="28sp"
+                 android:text="Info Tiket"
+                 android:textAlignment="center"
+                 android:textColor="#ffff"
+                 android:textSize="28sp" />
+
+             <View
+                 android:layout_width="match_parent"
+                 android:layout_height="1dp"
+                 android:layout_marginTop="45dp"
+                 android:background="#009688" />
+
+
+         </LinearLayout>
+
+
+         <android.support.v7.widget.RecyclerView
+             android:id="@+id/listKabupaten"
+             android:layout_marginTop="10dp"
+             android:layout_marginRight="16dp"
+             android:layout_marginLeft="16dp"
+             android:layout_width="match_parent"
+             android:layout_height="500dp">
+
+         </android.support.v7.widget.RecyclerView>
+
+
+
+     </LinearLayout>
+
+</FrameLayout>

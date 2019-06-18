@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "655498553536",
+    "firebase_url": "https://porjarapp.firebaseio.com",
+    "project_id": "porjarapp",
+    "storage_bucket": "porjarapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655498553536:android:6b68d07154a0c6d8",
+        "android_client_info": {
+          "package_name": "com.example.porjarapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655498553536-ivlitf3ch2e11jjlbfiplmtl5bb2dmlt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.porjarapp",
+            "certificate_hash": "f38ae9652cea6e903de781ae6c584dacd099ed86"
+          }
+        },
+        {
+          "client_id": "655498553536-umgrs6hq6qqv3b2e7mspb3pcts77mip1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1psAdvcC2Sc_66PvtBNK_H7pb2Rb_yQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655498553536-umgrs6hq6qqv3b2e7mspb3pcts77mip1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

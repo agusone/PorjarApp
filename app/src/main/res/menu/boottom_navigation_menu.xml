@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/ic_home_black_24dp"
+        android:id="@+id/menu_home"
+        android:title="@string/home_menu"
+
+        />
+
+    <item
+        android:icon="@drawable/ic_featured_play_list_black_24dp"
+        android:id="@+id/menu_publik"
+        android:title="@string/list_menu"
+
+        />
+</menu>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:background="@drawable/bg_gradien_primary_blue"
+            android:layout_height="178dp">
+
+            <TextView
+                android:id="@+id/titlepage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="Pesan Tiket Masuk "
+                android:textAlignment="center"
+                android:textColor="#ffff"
+                android:textSize="26sp"
+                android:layout_marginBottom="24sp"/>
+
+            <View
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:background="@drawable/bg_btn_blue_primary"
+                android:layout_height="1dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="-60dp"
+            android:orientation="vertical"
+            android:background="@drawable/bgitemdoes"
+            android:paddingTop="22dp"
+            android:paddingBottom="22dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_marginTop="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/addcabor"
+                    android:textSize="20sp"
+                    android:textColor="@color/greyprimary"
+                    android:text="@string/cabang_olahraga"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <!--<EditText-->
+                    <!--android:id="@+id/in_cabor"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="40dp"-->
+                    <!--android:paddingLeft="12dp"-->
+                    <!--android:maxLength="30"-->
+                    <!--android:textColor="@color/colorPrimaryDark"-->
+                    <!--android:background="@drawable/bginputtask"-->
+                    <!--android:hint=" Cabang Olahraga yang ingin di tonton "-->
+                    <!--android:inputType="text"/>-->
+
+                <Spinner
+                    android:id="@+id/sp_cabor"
+                    android:layout_width="match_parent"
+                    android:background="@drawable/bginputtask"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/addjumlah"
+                    android:textSize="20sp"
+                    android:textColor="@color/greyprimary"
+                    android:text="Jumlah Tiket"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <EditText
+                    android:id="@+id/in_jumlahtTiket"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingLeft="12dp"
+                    android:textColor="@color/greyprimary"
+                    android:background="@drawable/bginputtask"
+                    android:maxLength="20"
+                    android:hint="Jumlah tiket yang ingin di pesan "
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/bg_btn_blue_primary"
+            android:textColor="#fff"
+            android:text="Pesan Sekarang"
+            android:textAllCaps="false"
+            android:id="@+id/btnpesan"
+            android:textSize="20sp"/>
+
+        <Button
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/btncancel"
+            android:textColor="#AFAFAF"
+            android:text="Batal"
+            android:textAllCaps="false"
+            android:id="@+id/btncancel"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
